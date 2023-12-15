@@ -1,0 +1,43 @@
+/****  GET STARTED WITH YOUR TIMESCALE SERVICE  ****/
+
+
+/*
+SERVICE INFORMATION:
+
+Service name:  pg-94394
+Database name: tsdb
+Username:      tsdbadmin
+Password:      jesxcos8zy0t0g86
+Service URL:   postgres://tsdbadmin:jesxcos8zy0t0g86@tvpcjzzfih.uc3vjgbnrc.tsdb.cloud.timescale.com:32937/tsdb?sslmode=require
+Port:          32937
+
+
+~/.pg_service.conf
+echo "
+[pg-94394]
+host=tvpcjzzfih.uc3vjgbnrc.tsdb.cloud.timescale.com
+port=32937
+user=tsdbadmin
+password=jesxcos8zy0t0g86
+dbname=tsdb
+" >> ~/.pg_service.conf
+psql -d "service=pg-94394"
+*/
+
+----------------------------------------------------------------------------
+
+/*
+
+CONNECT TO YOUR SERVICE
+----------------------------------------------------------------------------
+
+1. Install psql:
+    https://blog.timescale.com/blog/how-to-install-psql-on-mac-ubuntu-debian-windows/
+
+2. From your command line, run:
+    psql "postgres://tsdbadmin:jesxcos8zy0t0g86@tvpcjzzfih.uc3vjgbnrc.tsdb.cloud.timescale.com:32937/tsdb?sslmode=require"
+*/
+
+/*
+FOR MORE DOCUMENTATION AND GUIDES, VISIT	>>>--->	HTTPS://DOCS.TIMESCALE.COM/
+*/
